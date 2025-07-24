@@ -49,14 +49,21 @@ table {
 * {
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
+    box-sizing: border-box;
 }
+
 
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FFFFFF;
     height: 80px;
     width: 100%;
+    padding: 0 50px;
 }
+
 
 .header-logo {
     width: 49px;
@@ -64,15 +71,36 @@ table {
     font-size: 20px;
     font-weight: 600;
     color: black;
-    float: left;
-    padding: 25px 50px;
 }
 
 .header-list li {
     list-style: none;
-    float: left;
-    padding: 26px 50px;
 }
+
 .header-list{
-    float:right;
+    display: flex;
+    gap: 50px;
+}
+
+.heading-brand {
+    padding: 100px;
+    width: 1080px;
+    height: 424px;
+}
+
+.heading-brand h1{
+    font-size: 80px;
+    letter-spacing: 0%;
+    width: 557px;
+    height: 180px;
+}
+
+.brand-img {
+    width: 495px;
+    height: 424px;
+    display: flex;
+}
+
+.heading {
+    display: flex;
 }
