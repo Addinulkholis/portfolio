@@ -54,7 +54,8 @@ table {
 
 .header {
     background-color: #FFFFFF;
-;
+    height: 80px;
+    width: 100%;
 }
 
 .header-logo {
