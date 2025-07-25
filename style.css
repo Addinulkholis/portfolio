@@ -75,6 +75,8 @@ table {
 
 .header-list li {
     list-style: none;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .header-list{
