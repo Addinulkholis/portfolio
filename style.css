@@ -50,6 +50,7 @@ table {
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
     box-sizing: border-box;
+    color: #2D2D2D;
 }
 
 
@@ -70,7 +71,6 @@ table {
     height: 30px;
     font-size: 20px;
     font-weight: 600;
-    color: black;
 }
 
 .header-list li {
@@ -82,25 +82,41 @@ table {
     gap: 50px;
 }
 
-.heading-brand {
+.heading {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 28px;
     padding: 100px;
-    width: 1080px;
-    height: 424px;
+    justify-content: space-between;
+}
+
+.heading-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.heading-brand h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.heading-brand p {
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .heading-brand h1{
     font-size: 80px;
-    letter-spacing: 0%;
     width: 557px;
     height: 180px;
+}
+.image {
+    display: flex;
 }
 
 .brand-img {
     width: 495px;
     height: 424px;
-    display: flex;
-}
-
-.heading {
-    display: flex;
 }
