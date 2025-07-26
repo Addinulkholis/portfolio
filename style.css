@@ -228,3 +228,60 @@ table {
     width: 315px;
     height: 315px;
 }
+
+.client-section {
+    width: 100%;
+    padding: 100px 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.client-list {
+    display: flex;
+    gap: 67.5px;
+}
+
+.client-item {
+    padding: 30px 22px 30px 30px;
+    width: 315px;
+    height: 344px;
+    background-color: #FFFCF5;
+    border: 1.5px solid #FFD285;
+}
+.client-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.client-card {
+    width: 263px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.client-avatar {
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-radius: 100px;
+}
+.client-rate {
+    display: flex;
+    gap: 20px;
+}
+.client-rate-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.client-name {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
