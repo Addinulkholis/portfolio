@@ -168,6 +168,7 @@ table {
     align-items: center;
     gap: 19px;
     text-align: center;
+    line-height: 27px;
 }
 
 .headline h2 {
@@ -284,4 +285,72 @@ table {
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
+}
+
+.footer-item {
+    width: 100%;
+    border-top: 2px solid #00000033;
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.footer-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+.footer-description {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.footer-massage {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.social-icons {
+    display: flex;
+    gap: 13px;
+}
+.footer-form {
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer-fields input {
+    height: 69px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #F3F3F3;
+    padding: 21px 30px;
+    border: none;
+}
+.footer-fields textarea {
+    height: 231px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #F3F3F3;
+    padding: 21px;
+    border: none;
+}
+.footer-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-btn input {
+    width: 235px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #2D2D2D;
+    border: none;
 }
